@@ -1,7 +1,7 @@
 window.onload = function() {
 
-    let countdown = document.getElementById('countdown');
-    let statement = document.getElementById('statement');
+    var countdown = document.getElementById('countdown');
+    var statement = document.getElementById('statement');
     statement.style.visibility =  'hidden';
 
     countdown.innerHTML = 10;
